@@ -756,6 +756,14 @@ figure {
   border: none !important;
   border: 2px solid transparent !important;
 }
+
+.btn.btn-primary.logo-button{
+  background: #ffffff;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+}
+
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
   background: #264E86;
