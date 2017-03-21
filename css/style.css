@@ -756,6 +756,47 @@ figure {
   border: none !important;
   border: 2px solid transparent !important;
 }
+
+.btn.btn-primary.logo-button{
+  background: #ffffff;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+  height: 100px;
+}
+
+.logo{
+  
+  border: none !important;
+  border: 2px solid transparent !important;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.fh5co-listing-item:hover .overlay {
+  opacity: .7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .01s ease;
+  z-index: 1000;
+  background: #393e46 !important;
+}
+
+
+
+.hover a:hover {
+  color: #264E86;
+}
+
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
   background: #264E86;
