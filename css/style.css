@@ -1216,3 +1216,10 @@ footer {
   height: 100%;
 }
 
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
