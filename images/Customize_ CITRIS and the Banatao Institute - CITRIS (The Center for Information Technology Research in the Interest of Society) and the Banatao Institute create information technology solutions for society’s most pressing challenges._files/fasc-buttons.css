@@ -1,0 +1,9 @@
+
+.mce-i-fascbutton-ico:before {
+    content: '\f132';
+    content: '\f310';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font:400 20px/1 dashicons;
+}
+

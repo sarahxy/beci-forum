@@ -1,0 +1,53 @@
+/**
+ * Menu icons for CPTs
+ */
+
+#menu-posts-ctrs-projects .wp-menu-image:before,
+#menu-posts-ctrs-people .wp-menu-image:before,
+#menu-posts-ctrs-cpt-groups .wp-menu-image:before {
+	font-family: 'dashicons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.2em !important
+}
+#menu-posts-ctrs-people .wp-menu-image:before {
+	content: "\f307"; /* Group of people */
+}
+#menu-posts-ctrs-projects .wp-menu-image:before {
+	content: "\f119"; /* Paper/pencil */
+}
+#menu-posts-ctrs-cpt-groups .wp-menu-image:before {
+	content: "\f325"; /* Family Tree */
+}
+
+/**
+ * Old Menu Icons
+ */
+/*#menu-posts-ctrs-projects .wp-menu-image {
+	background: url(../../images/cpt-icons/clipboard-text.png) no-repeat 6px -17px;
+}
+#menu-posts-ctrs-people .wp-menu-image {
+	background: url(../../images/cpt-icons/users.png) no-repeat 6px -17px;
+}
+
+#menu-posts-ctrs-projects:hover .wp-menu-image,
+#menu-posts-ctrs-projects.wp-has-current-submenu .wp-menu-image,
+#menu-posts-ctrs-people:hover .wp-menu-image,
+#menu-posts-ctrs-people.wp-has-current-submenu .wp-menu-image {
+	background-position: 6px 7px;
+}*/
+
+/**
+ * Don't show the Group link
+ */
+#adminmenu a[href*="taxonomy=ctrs-groups"] {
+	display: none;
+}
+#ctrs-groups-add-toggle {
+	display: none;
+}
