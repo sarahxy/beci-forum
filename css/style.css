@@ -298,12 +298,14 @@ figure {
   -moz-box-shadow: inset 0px -126px 311px -69px rgba(0, 0, 0, 0.95);
   box-shadow: inset 0px -126px 311px -69px rgba(0, 0, 0, 0.95);
 }
+/*
 .fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy h2 {
   margin-left: 10px;
 }
 .fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy h4 {
   margin-left: 10px;
 }
+*/
 .fh5co-listing .fh5co-item-wrap .fh5co-listing-item:hover .fh5co-listing-copy .icon {
   margin-right: 10px;
 }
